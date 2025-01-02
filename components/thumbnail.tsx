@@ -19,6 +19,8 @@ const Thumbnail = ({ src, fallback, isLive, username }: ThumbnailProps) => {
         <UserAvatar
           username={username}
           imageUrl={fallback}
+          isLive={isLive}
+          showBadge={isLive}
           size="lg"
         />
       </div>

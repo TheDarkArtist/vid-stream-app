@@ -23,7 +23,7 @@ const Sidebar = async () => {
 
 export const SidebarSkeleton = () => {
   return (
-    <aside className="fixed left-0 flex flex-col w-16 lg:w-64 h-full bg-slate-900 borrder-r border-slate-800 z-50">
+    <aside className="fixed left-0 flex flex-col w-16 lg:w-64 h-full bg-slate-900 border-r border-slate-800 z-50">
       <ToggleSkeleton />
       <FollowingSkeleton />
       <RecommendedSkeleton />
